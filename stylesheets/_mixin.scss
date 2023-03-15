@@ -1,0 +1,9 @@
+@import "./variable";
+@mixin button-gradiant {
+  background-image: linear-gradient(to right, $gradiantStartColor , $gradiantEndColor);
+}
+@mixin text-gradiant {
+  background-image: linear-gradient(to right, $gradiantStartColor , $gradiantEndColor);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
