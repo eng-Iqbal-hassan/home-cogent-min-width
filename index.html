@@ -1,12 +1,451 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home page</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="./stylesheets/style.css">
+  <title>Home Page</title>
 </head>
 <body>
-    hello world
+  <main>
+    <div class="main-wrapper header">
+      <div class="nav-bar">
+        <div class="logo">
+          <img src="/assets/logo.svg" alt="logo" />
+        </div>
+        <ul class="menu-listing">
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Career</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+        <button class="btn-primary">Book a Consultation</button>
+        <div class="responsive-button">
+          <img src="/assets/responsive-button.svg" alt="responsive button" />
+        </div>
+      </div>
+      <div class="drawer">
+        <div class="drawer-header">
+          <div class="logo">
+            <img src="/assets/logo.svg" alt="logo" />
+          </div>
+          <div class="back-button">
+            <img src="/assets/back-button.svg" alt="back-button" />
+          </div>
+        </div>
+        <ul>
+          <li>
+            <a href="#">
+              <div class="image">
+                <img src="/assets/service.svg" alt="service" />
+              </div>
+              <span>Services</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="image">
+                <img src="/assets/about-us.svg" alt="about-us" />
+              </div>
+              <span>About Us</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="image">
+                <img src="/assets/career.svg" alt="career" />
+              </div>
+              <span>Career</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="image">
+                <img src="/assets/blog.svg" alt="blog" />
+              </div>
+              <span>Blog</span>
+            </a>
+          </li>
+        </ul>
+        <button class="btn-primary">Book a Consultation</button>
+      </div>
+    </div>
+    <div class="content-wrapper">
+      <div class="main-wrapper solution">
+        <h1>Do You Have The Right <span>Problem Solving Technology?</span></h1>
+        <p>
+          We build software for ambitious, growing companies. Our team helps take your business from 1 to 10, 100 and beyond 
+        </p>
+        <button class="btn-primary">Book a Consultation - It's free</button>
+      </div>
+      <div class="member">
+        <div class="fit-image member-1">
+          <img src="/assets/member1.png" alt="member" />
+        </div>
+        <div class="member-2">
+          <img src="/assets/member2.png" alt="member" />
+        </div>
+        <div class="fit-image member-3">
+          <img src="/assets/member3.png" alt="member" />
+        </div>
+        <div class="fit-image member-4">
+          <img src="/assets/member4.png" alt="member" />
+        </div>
+        <div class="fit-image member-5">
+          <img src="/assets/member5.png" alt="member" />
+        </div>
+      </div>
+      <div class="main-wrapper services">
+        <span>Our Services</span>
+        <h3>Engineering Services For Our Customers Worldwide</h3>
+        <div class="card-listing">
+          <div class="card">
+            <div class="image">
+              <img src="/assets/web-development.svg" alt="web-development" />
+            </div>
+            <h4>Web Development</h4>
+            <p class="truncate">
+              We build scalable web applications using cutting edge technologies like Python, Django, Javascrip and React.We craft delightful user experiences using native and cross-platform technologies like Kotlin Swift, React Native.We craft delightful user experiences using native and cross-platform technologies like Kotlin Swift, React Native.
+            </p>
+            <div class="arrow">
+              <img src="/assets/arrow.svg" alt="arrow" />
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="/assets/mobile-development.svg" alt="mobile-development" />    
+            </div>
+            <h4>Mobile App Development</h4>
+            <p class="truncate">
+              We craft delightful user experiences using native and cross-platform technologies like Kotlin Swift, React Native.We craft delightful user experiences using native and cross-platform technologies like Kotlin Swift, React Native.We craft delightful user experiences using native and cross-platform technologies like Kotlin Swift, React Native.
+            </p>
+            <div class="arrow">
+              <img src="/assets/arrow.svg" alt="arrow" />
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="/assets/data-engineering.svg" alt="data-engineering" />
+            </div>
+            <h4>Data Engineering</h4>
+            <p class="truncate">
+              We create bespoke data applications to cater to your specific needs using technologies like Airflow, Scrapy, Airbyte and Python.We create bespoke data applications to cater to your specific needs using technologies like Airflow, Scrapy, Airbyte and Python.We create bespoke data applications to cater to your specific needs using technologies like Airflow, Scrapy, Airbyte and Python
+            </p>
+            <div class="arrow">
+              <img src="/assets/arrow.svg" alt="arrow" />
+            </div>
+          </div>
+        </div>
+        <div class="more">
+          <p>See more</p>
+          <div class="farward-arrow">
+            <img src="/assets/Farward-arrow.svg" alt="farward arrow" />
+          </div>
+        </div>
+      </div>
+      <div class="main-wrapper about-us row">
+        <div class="content col col-12 col-md-6">
+          <span>About us</span>
+          <div class="tech">
+            <h3>A Tech Company With a</h3>
+            <div class="image">
+              <img src="/assets/heart.svg" alt="heart" />
+            </div>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="data col col-12 col-md-6">
+          <div class="experience">
+            <span>50+</span>
+            <h4>Years of Experience</h4>
+          </div>
+          <div class="members">
+            <span>30+</span>
+            <h4>Team Members</h4>
+          </div>
+          <div class="deliver">
+            <span>25+</span>
+            <h4>Delivered Products</h4>
+          </div>
+          <div class="time">
+            <span>35K+</span>
+            <h4>Hours Annually</h4>
+          </div>
+        </div>
+      </div>
+      <div class="main-wrapper value row">
+        <div class="image col col-12 col-md-6">
+          <img src="/assets/value.png" alt="value" />
+        </div>
+        <div class="content col col-12 col-md-6">
+          <h3>What Sets Us Apart?</h3>
+          <div class="content-data">
+            <div class="deliver">
+              <div class="rank">
+                <img src="/assets/rank1.svg" alt="rank" />
+              </div>
+              <h4>Proven Delivery Record</h4>
+              <p>
+                Over the last 10 years, our team has delivered 25+ projects running in production right now. Delivery is the single most important metric we use to gauge our success.
+              </p>
+            </div>
+            <div class="outcome">
+              <div class="rank">
+                <img src="/assets/rank2.svg" alt="rank" />
+              </div>
+              <h4>We Own The Outcome</h4>
+              <p>
+                We have an extreme ownership culture at Cogent Labs. We deeply value the trust you put in us and take full responsibility for getting it across the finishing line.
+              </p>
+            </div>
+            <div class="scale">
+              <div class="rank">
+                <img src="/assets/rank3.svg" alt="rank" />
+              </div>
+              <h4>We Know How To Scale</h4>
+              <p>
+                We have experience working with mission critical software that runs at scale. We have helped businesses grow up to 30x year over year.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio">
+        <span>Portfolio</span>
+        <h3>Our Recent Work</h3>
+        <div class="project">
+          <div class="fit-image overlay-project project-1">
+            <img src="/assets/project1.png" alt="first project" />
+            <div class="overlay"></div>
+          </div>
+          <div class="project-2">
+            <img src="/assets/project2.png" alt="second project" />
+          </div>
+          <div class="fit-image overlay-project project-3">
+            <img src="/assets/project3.png" alt="third project" />
+            <div class="overlay"></div>
+          </div>
+          <div class="fit-image overlay-project project-4">
+            <img src="/assets/project4.png" alt="fourth project" />
+            <div class="overlay"></div>
+          </div>
+          <div class="fit-image overlay-project project-5">
+            <img src="/assets/project5.png" alt="fifth project" />
+            <div class="overlay"></div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <span>Testimonials</span>
+        <h3>Don’t Take Our Word For It, Take Theirs</h3>
+        <div class="testimonial-content">
+          <ul class="nav nav-pills" id="tabs" role="tablist">
+            <li class="nav-item" role="presentation" >
+              <a class="nav-link anchor active" id="first-client-tab anchor1" data-mdb-toggle="pill" href="#first-client" role="tab" aria-controls="FirstClient" aria-selected="true"> 
+                <div class="image">
+                  <img src="/assets/first-client.png" alt="first-client" />
+                </div>
+                <div class="person">
+                  <h5>Margoret Robbie</h5>
+                  <p>Product owner, CSPS Solutions</p>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link anchor" id="second-client-tab anchor2" data-mdb-toggle="pill" href="#second-client" role="tab" aria-controls="SecondClient" aria-selected="false"> 
+                <div class="image">
+                  <img src="/assets/second-client.png" alt="second-client" />
+                </div>
+                <div class="person">
+                  <h5>John Doe</h5>
+                  <p>Product owner, CSPS Solutions</p>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link anchor" id="third-client-tab anchor3" data-mdb-toggle="pill" href="#third-client" role="tab"
+              aria-controls=" ThirdClient" aria-selected="false">
+                <div class="image">
+                  <img src="/assets/third-client.png" alt="third-client" />
+                </div>
+                <div class="person">
+                  <h5>John Doe</h5>
+                  <p>Product owner, CSPS Solutions</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <div class="tab-content" id="content">
+            <div class="tab-pane fade show active" id="first-client" role="tabpanel">
+              <h4>It was great experience</h4>
+              <ul class="star-rating">
+                <li class="star">
+                  <img src="/assets/Star.svg" alt="star" />
+                </li>
+                <li class="star">
+                  <img src="/assets/Star.svg" alt="star" />
+                </li>
+                <li class="star">
+                  <img src="/assets/Star.svg" alt="star" />
+                </li>
+                <li class="star">
+                  <img src="/assets/Star.svg" alt="star" />
+                </li>
+                <li class="star">
+                  <img src="/assets/Star.svg" alt="star" />
+                </li>
+              </ul>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+              </p>
+            </div>
+            <div class="tab-pane fade" id="second-client" role="tabpanel">
+              <h4>secon-client feedback</h4> 
+            </div>
+            <div class="tab-pane fade" id="third-client" role="tabpanel">
+              <h4>third-client feedback</h4> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-wrapper detail-listing">
+        <div class="description">
+          <div class="logo">
+            <img src="/assets/logo.svg" alt="logo" />
+          </div>
+          <p>
+            Social media validation business model canvas graphical user interface launch party creative facebook iPad twitter.
+          </p>
+        </div>
+        <div class="ul-wrapper">
+          <ul class="links">
+            <h4>Links</h4>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Job fair</a></li>
+          </ul>
+          <ul class="information">
+            <h4>Informations</h4>
+            <li><a href="#">Terms & Condition</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Faq’s</a></li>
+          </ul>
+          <ul class="contact-us">
+            <h4>Contacts us</h4>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="/assets/mail.svg" alt="mail" />
+                </div>
+                <span>hello@cogentlabs.co</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="/assets/Phone.svg" alt="phone" />
+                </div>
+                <span>+92 300 1114369</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="image">
+                  <img src="/assets/location.svg" alt="location" />
+                </div>
+                <span>2nd Floor,21-K Commercial, Model Town, Lahore.</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>Copyright © 2022 Cogent labs | All Rights Reserved </p>
+    <ul class="social-icons">
+      <li class="image">
+        <img src="/assets/Facebook.png" alt="facebook" />
+      </li>
+      <li class="image">
+        <img src="/assets/Twitter.png" alt="twitter" />
+      </li>
+      <li class="image">
+        <img src="/assets/Instagram.png" alt="instagram" />
+      </li>
+      <li class="image">
+        <img src="/assets/LinkedIn.png" alt="linkedin" />
+      </li>
+      <li class="image">
+        <img src="/assets/YouTube.png" alt="youtube" />
+      </li>
+    </ul>
+  </footer>
 </body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js">
+</script> 
+<script>
+  const body= document.body;
+  const navBar= document.querySelector(".nav-bar");
+  const menuButton=document.querySelector(".responsive-button");
+  const respnsiveBar=document.querySelector(".drawer");
+  const contentWrapper =document.querySelector(".content-wrapper");
+  const backButton = document.querySelector(".back-button");
+  if (menuButton) {
+      menuButton.addEventListener("click", () => {
+        respnsiveBar.classList.add("active");
+        navBar.classList.add("blur");
+        contentWrapper.classList.add("blur");
+        body.style.overflow = "hidden";
+      }
+    )
+  }
+  if (contentWrapper) {
+    contentWrapper.addEventListener("click", () => {
+        respnsiveBar.classList.remove("active");
+        navBar.classList.remove("blur")
+        contentWrapper.classList.remove("blur")
+      }
+    )
+  }
+  if (navBar) {
+    navBar.addEventListener("click", () => {
+        respnsiveBar.classList.remove("active");
+        navBar.classList.remove("blur")
+        contentWrapper.classList.remove("blur")
+      },true
+    )
+  }
+  if (backButton) {
+    backButton.addEventListener("click", () => {
+        respnsiveBar.classList.remove("active");
+        navBar.classList.remove("blur")
+        contentWrapper.classList.remove("blur")
+      }
+    )
+  }
+  const anchors = document.querySelector(".anchor");
+  anchors.forEach((anchor) => {
+    anchor.addEventListener("click", () => {
+      anchors.forEach((anchor) => {
+        anchor.classList.remove("active");
+      });
+      anchor.classList.add("active");
+    });
+  });
+</script>
 </html>
